@@ -1,0 +1,109 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+body{
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    height: 100vh;
+    font-family: Outfit,'sans-serif';
+}
+.box{
+   width: 350px;
+   height: auto;
+   background-color: hsl(216, 50%, 16%);
+   padding: 20px 30px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   top: 7%;
+border-radius: 10px;
+}
+.card-img img{
+    border-radius: 10px;
+    display: block;
+  width: 100%;
+  height: auto; 
+}
+
+.card-header .right{
+    text-align: right;
+}
+hr{
+    color: #fff;
+    margin: 0;
+}
+.avatar img{
+width: 15%;
+}
+
+.card-img{
+    position: relative;
+}
+.card-img:hover .overlay{
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  .text i:hover{
+    color: #fff !important;
+  }
+  .card-header h4{
+    font-weight: 600;
+  }
+  .card-header p{
+font-weight: 300;
+color: hsl(215, 51%, 70%);
+  }
+  .card-header h4:hover{
+    color:hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+  
+  }
+
+  .card-header .eth:hover{
+    color:hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+  
+  }
+  
+  .card-header .days:hover{
+    color:hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+  
+  }
+  span.color-gray{
+     color: hsl(215, 51%, 70%);;
+  }
+  span.name:hover{
+    color:hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+  }
+
+  .card-header i{
+    margin-right: 5px;
+  }
